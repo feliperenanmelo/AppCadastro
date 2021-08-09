@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Application", "1-Application", "{283C7D9C-CBC0-4DE6-ACB8-A783C2963262}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{3CE03E72-6B4E-427E-ABCB-189B53B69D75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infraestructure", "3-Infraestructure", "{FE29F67E-61CE-4B50-B614-32755A71A2E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confitec.Cadastro.Api", "src\Confitec.Cadastro.Api\Confitec.Cadastro.Api.csproj", "{4CADC932-0ED1-410C-BED0-D4135D5FB07C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confitec.Cadastro.Models", "src\Confitec.Cadastro.Models\Confitec.Cadastro.Models.csproj", "{706327B6-A41F-457A-8A7D-9168DDC0E74C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1-Models", "2.1-Models", "{BC638F04-C410-44B6-B4C5-D77B58B2E638}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2-Services", "2.2-Services", "{9FBBB9B8-8C1D-4635-B98D-F59B4B1BE970}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confitec.Cadastro.Services", "src\Confitec.Cadastro.Services\Confitec.Cadastro.Services.csproj", "{3823393C-BC10-4D85-B61E-5E3483383848}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1-Data", "3.1-Data", "{819F5218-5CBD-4C84-92D0-D2B98F985F1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2-CrossCutting", "3.2-CrossCutting", "{B3E1E378-EC5F-49AD-B391-F9621F0DE75B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confitec.Cadastro.Data", "src\Confitec.Cadastro.Data\Confitec.Cadastro.Data.csproj", "{1A07A82F-66DF-45A9-8E35-A12B4B8736F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confitec.Cadastro.IoC", "src\Confitec.Cadastro.IoC\Confitec.Cadastro.IoC.csproj", "{7B62F241-367D-4EE3-988F-621894CB7C50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CADC932-0ED1-410C-BED0-D4135D5FB07C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CADC932-0ED1-410C-BED0-D4135D5FB07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CADC932-0ED1-410C-BED0-D4135D5FB07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CADC932-0ED1-410C-BED0-D4135D5FB07C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{706327B6-A41F-457A-8A7D-9168DDC0E74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{706327B6-A41F-457A-8A7D-9168DDC0E74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{706327B6-A41F-457A-8A7D-9168DDC0E74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{706327B6-A41F-457A-8A7D-9168DDC0E74C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3823393C-BC10-4D85-B61E-5E3483383848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3823393C-BC10-4D85-B61E-5E3483383848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3823393C-BC10-4D85-B61E-5E3483383848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3823393C-BC10-4D85-B61E-5E3483383848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A07A82F-66DF-45A9-8E35-A12B4B8736F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A07A82F-66DF-45A9-8E35-A12B4B8736F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A07A82F-66DF-45A9-8E35-A12B4B8736F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A07A82F-66DF-45A9-8E35-A12B4B8736F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B62F241-367D-4EE3-988F-621894CB7C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B62F241-367D-4EE3-988F-621894CB7C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B62F241-367D-4EE3-988F-621894CB7C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B62F241-367D-4EE3-988F-621894CB7C50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CADC932-0ED1-410C-BED0-D4135D5FB07C} = {283C7D9C-CBC0-4DE6-ACB8-A783C2963262}
+		{706327B6-A41F-457A-8A7D-9168DDC0E74C} = {BC638F04-C410-44B6-B4C5-D77B58B2E638}
+		{BC638F04-C410-44B6-B4C5-D77B58B2E638} = {3CE03E72-6B4E-427E-ABCB-189B53B69D75}
+		{9FBBB9B8-8C1D-4635-B98D-F59B4B1BE970} = {3CE03E72-6B4E-427E-ABCB-189B53B69D75}
+		{3823393C-BC10-4D85-B61E-5E3483383848} = {9FBBB9B8-8C1D-4635-B98D-F59B4B1BE970}
+		{819F5218-5CBD-4C84-92D0-D2B98F985F1B} = {FE29F67E-61CE-4B50-B614-32755A71A2E6}
+		{B3E1E378-EC5F-49AD-B391-F9621F0DE75B} = {FE29F67E-61CE-4B50-B614-32755A71A2E6}
+		{1A07A82F-66DF-45A9-8E35-A12B4B8736F4} = {819F5218-5CBD-4C84-92D0-D2B98F985F1B}
+		{7B62F241-367D-4EE3-988F-621894CB7C50} = {B3E1E378-EC5F-49AD-B391-F9621F0DE75B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C2F51F5-0BA1-437A-81D6-177C13BC80AC}
+	EndGlobalSection
+EndGlobal

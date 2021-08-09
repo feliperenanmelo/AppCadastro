@@ -1,0 +1,46 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:50381",
+      "sslPort": 44308
+    }
+  },
+  "profiles": {
+    "IIS - Dev": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/usuario/Obter-Todos",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS - Staging": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/usuario/Obter-Todos",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Staging"
+      }
+    },
+    "IIS - Prod": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/usuario/Obter-Todos",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
+      }
+    },
+    "Confitec.Cadastro.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/usuario/Obter-Todos",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

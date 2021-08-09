@@ -1,0 +1,378 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Api\\Confitec.Cadastro.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Api\\Confitec.Cadastro.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Api\\Confitec.Cadastro.Api.csproj",
+        "projectName": "Confitec.Cadastro.Api",
+        "projectPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Api\\Confitec.Cadastro.Api.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Data\\Confitec.Cadastro.Data.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Data\\Confitec.Cadastro.Data.csproj"
+              },
+              "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.IoC\\Confitec.Cadastro.IoC.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.IoC\\Confitec.Cadastro.IoC.csproj"
+              },
+              "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Models\\Confitec.Cadastro.Models.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Models\\Confitec.Cadastro.Models.csproj"
+              },
+              "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Services\\Confitec.Cadastro.Services.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Services\\Confitec.Cadastro.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.0-preview1-19509-03, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Data\\Confitec.Cadastro.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Data\\Confitec.Cadastro.Data.csproj",
+        "projectName": "Confitec.Cadastro.Data",
+        "projectPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Data\\Confitec.Cadastro.Data.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Models\\Confitec.Cadastro.Models.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Models\\Confitec.Cadastro.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.IoC\\Confitec.Cadastro.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.IoC\\Confitec.Cadastro.IoC.csproj",
+        "projectName": "Confitec.Cadastro.IoC",
+        "projectPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.IoC\\Confitec.Cadastro.IoC.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Data\\Confitec.Cadastro.Data.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Data\\Confitec.Cadastro.Data.csproj"
+              },
+              "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Models\\Confitec.Cadastro.Models.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Models\\Confitec.Cadastro.Models.csproj"
+              },
+              "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Services\\Confitec.Cadastro.Services.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Services\\Confitec.Cadastro.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Models\\Confitec.Cadastro.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Models\\Confitec.Cadastro.Models.csproj",
+        "projectName": "Confitec.Cadastro.Models",
+        "projectPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Models\\Confitec.Cadastro.Models.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Services\\Confitec.Cadastro.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Services\\Confitec.Cadastro.Services.csproj",
+        "projectName": "Confitec.Cadastro.Services",
+        "projectPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Services\\Confitec.Cadastro.Services.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Data\\Confitec.Cadastro.Data.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Data\\Confitec.Cadastro.Data.csproj"
+              },
+              "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Models\\Confitec.Cadastro.Models.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\Documents\\Confitec\\Backend\\src\\Confitec.Cadastro.Models\\Confitec.Cadastro.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

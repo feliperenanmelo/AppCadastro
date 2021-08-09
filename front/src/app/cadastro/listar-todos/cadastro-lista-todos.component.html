@@ -1,0 +1,60 @@
+<div class="container main-container">
+    <h1>Lista de Alunos</h1>
+    <hr>
+
+    <p>
+        <a class="btn btn-info" [routerLink]="['/cadastro/novo']">Novo Aluno</a>
+    </p>
+
+    <table class="table table-hover">
+        <thead class="thead-dark">
+            <tr>                
+                <th>
+                    Nome
+                </th>
+                <th>
+                    Sobrenome
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    Nascimento
+                </th>
+                <th>
+                    Escolaridade
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let usuario of usuarios">                
+                <td>
+                    {{ usuario.nome }}
+                </td>
+                <td>
+                    {{ usuario.sobrenome }}
+                </td>
+                <td>
+                    {{ usuario.email }}
+                </td>
+                <td>
+                        {{ usuario.dataNascimento | date:'yyyy-MM-dd' }}
+                </td>
+                <td>
+                        {{ obterDescricaoEscolaridade(usuario.escolaridade) }}
+                </td>                
+                <td class="text-right">                    
+                    <a class="btn btn-info" [routerLink]="['/cadastro/editar',usuario.id]">
+                        <span class="fa fa-pencil" aria-hidden="true"></span>
+                    </a>&nbsp;
+
+                    <a class="btn btn-danger" [routerLink]="['/cadastro/excluir',usuario.id]">
+                        <span class="fa fa-trash"></span>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

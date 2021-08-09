@@ -1,0 +1,59 @@
+<div class="container main-container">
+
+    <h3>Exluindo o cadastro de {{ usuario.nome }} {{ usuario.sobrenome }}</h3>
+
+    <hr>
+    <div class="row">
+        <div class="col-md-10">
+            <form (ngSubmit)="excluirCadastro()" [formGroup]="cadastroForm">                      
+
+                <div class="alert alert-danger" *ngIf="errors.length > 0">
+                    <h3 id="msgRetorno">Opa! Alguma coisa não deu certo:</h3>
+                    <ul>
+                        <li *ngFor="let error of errors">{{ error }}</li>
+                    </ul>
+                </div>                
+
+                <div class="form-group">
+                    <label class="control-label">Nome</label>
+                    <div>
+                        <input class="form-control" id="nome" type="text" placeholder="Nome (requerido)" formControlName="nome" readonly/>                       
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label">Sobrenome</label>
+                    <div>
+                        <input class="form-control" id="sobrenome" type="text" placeholder="Sobrenome (requerido)" formControlName="sobrenome" readonly/>                      
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label">Email</label>
+                    <div>
+                        <input class="form-control" id="email" type="text" placeholder="Email (requerido)" formControlName="email" readonly/>                      
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label">Data Nascimento</label>
+                    <div>
+                        <input class="form-control" id="dataNascimento" type="text" placeholder="Nascimento (requerido) 2000-01-01" mask="0000-00-00" formControlName="dataNascimento" readonly />                        
+                    </div>
+                </div>                
+
+                <div class="form-group">
+                    <label class="control-label">Escolaridade</label>
+                    <select class="form-control" id="escolaridade" formControlName="escolaridade" disabled>
+                        <option *ngFor="let escolaridade of escolaridades" value="{{ escolaridade.id }}">{{ escolaridade.descricao }}</option>
+                    </select>                  
+                </div>      
+
+                <div class="form-group">
+                    <input type="submit" value="Excluir" id="excluirUsuario" class="btn btn-primary">&nbsp;
+                    <a class="btn btn-info" href="/cadastro/listar-todos">Voltar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+C:\Users\Administrador\Documents\Confitec\Confitec.Cadastro\src\Confitec.Cadastro.Models\bin\Debug\netcoreapp3.1\Confitec.Cadastro.Models.deps.json
+C:\Users\Administrador\Documents\Confitec\Confitec.Cadastro\src\Confitec.Cadastro.Models\bin\Debug\netcoreapp3.1\Confitec.Cadastro.Models.dll
+C:\Users\Administrador\Documents\Confitec\Confitec.Cadastro\src\Confitec.Cadastro.Models\bin\Debug\netcoreapp3.1\Confitec.Cadastro.Models.pdb
+C:\Users\Administrador\Documents\Confitec\Confitec.Cadastro\src\Confitec.Cadastro.Models\obj\Debug\netcoreapp3.1\Confitec.Cadastro.Models.csprojAssemblyReference.cache
+C:\Users\Administrador\Documents\Confitec\Confitec.Cadastro\src\Confitec.Cadastro.Models\obj\Debug\netcoreapp3.1\Confitec.Cadastro.Models.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\Confitec\Confitec.Cadastro\src\Confitec.Cadastro.Models\obj\Debug\netcoreapp3.1\Confitec.Cadastro.Models.AssemblyInfo.cs
+C:\Users\Administrador\Documents\Confitec\Confitec.Cadastro\src\Confitec.Cadastro.Models\obj\Debug\netcoreapp3.1\Confitec.Cadastro.Models.dll
+C:\Users\Administrador\Documents\Confitec\Confitec.Cadastro\src\Confitec.Cadastro.Models\obj\Debug\netcoreapp3.1\Confitec.Cadastro.Models.pdb
+C:\Users\Administrador\Documents\Confitec\Backend\src\Confitec.Cadastro.Models\bin\Debug\netcoreapp3.1\Confitec.Cadastro.Models.deps.json
+C:\Users\Administrador\Documents\Confitec\Backend\src\Confitec.Cadastro.Models\bin\Debug\netcoreapp3.1\Confitec.Cadastro.Models.dll
+C:\Users\Administrador\Documents\Confitec\Backend\src\Confitec.Cadastro.Models\bin\Debug\netcoreapp3.1\Confitec.Cadastro.Models.pdb
+C:\Users\Administrador\Documents\Confitec\Backend\src\Confitec.Cadastro.Models\obj\Debug\netcoreapp3.1\Confitec.Cadastro.Models.csprojAssemblyReference.cache
+C:\Users\Administrador\Documents\Confitec\Backend\src\Confitec.Cadastro.Models\obj\Debug\netcoreapp3.1\Confitec.Cadastro.Models.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\Confitec\Backend\src\Confitec.Cadastro.Models\obj\Debug\netcoreapp3.1\Confitec.Cadastro.Models.AssemblyInfo.cs
+C:\Users\Administrador\Documents\Confitec\Backend\src\Confitec.Cadastro.Models\obj\Debug\netcoreapp3.1\Confitec.Cadastro.Models.dll
+C:\Users\Administrador\Documents\Confitec\Backend\src\Confitec.Cadastro.Models\obj\Debug\netcoreapp3.1\Confitec.Cadastro.Models.pdb
