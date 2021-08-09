@@ -4,7 +4,6 @@ import { AppRoutingModule } from './app.routes';
 import { NavegacaoModule } from './navegacao/navegacao.module';
 
 import { AppComponent } from './app.component';
-import { CadastroComponent } from './cadastro/cadastro.component';
 import { CadastroListaTodosComponent } from './cadastro/listar-todos/cadastro-lista-todos.component';
 import { CadastroNovoComponent } from './cadastro/novo/cadastro-novo.component';
 import { CadastroExcluirComponent } from './cadastro/excluir/cadastro-excluir.component';
@@ -22,8 +21,7 @@ import { NgBrazil } from 'ng-brazil';
 
 @NgModule({
   declarations: [
-    AppComponent,   
-    CadastroComponent, 
+    AppComponent,       
     CadastroListaTodosComponent, 
     CadastroNovoComponent, 
     CadastroExcluirComponent, 
